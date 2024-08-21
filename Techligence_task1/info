@@ -1,0 +1,206 @@
+{
+  "uuid": "672134f2ba553f6ed5420ef325318db3",
+  "path": "Offline/Techligence_task1",
+  "name": "Techligence_task1",
+  "content": "",
+  "created_at": "2024-02-14 16:32:22",
+  "updated_at": "2024-02-17 23:14:12",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "253947c4b3863cb8dbbbe728ada85bfe",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "536d29e603564cb386d6553c8f1dd03b": 1,
+        "bb009484ef804a24ac5d18c54b249586": 3,
+        "8c9c62419b744a8692c35893f7ae4f71": 1,
+        "f042d8e2bb36493cac2403a27b1cf43b": 1,
+        "94856690dc3f48e28a9b1356678df88c": 1,
+        "e981f7a85ac54f9b9ac276aeb45da08b": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LED_RED",
+          1,
+          "LED0805-RD_RED",
+          "LED1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900019100",
+            "Manufacturer": "null",
+            "Manufacturer Part": "SMDRedLED红色超高亮0805",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SMDREDLED红色超高亮0805",
+            "Package Display": "No",
+            "puuid": "bfb6a2773f06414c87aa48a7f877b54b",
+            "uuid": "8c9c62419b744a8692c35893f7ae4f71"
+          }
+        ],
+        [
+          "Mounting_Hole_PAD",
+          2,
+          "PAD-THT-C050",
+          "MK1,MK2",
+          {
+            "description": "",
+            "Contributor": "KiCAD",
+            "license": "https://www.gnu.org/licenses/lgpl-2.1.html",
+            "spiceSymbolName": "Mounting_Hole_PAD",
+            "Manufacturer Part": "",
+            "puuid": "d87613ab98c4495fb0f40dae7e08672a",
+            "uuid": "e981f7a85ac54f9b9ac276aeb45da08b"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "220k",
+          1,
+          "R0603",
+          "R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "RES-ADJ-SMD_VG039NCH",
+          "RV1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900010776",
+            "Manufacturer": "null",
+            "Manufacturer Part": "3*3Potentiometer-10kΩ20%",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "3*3POTENTIOMETER-10KΩ20%",
+            "Package Display": "No",
+            "puuid": "f1412257f0ef491182e6889e0f6ca3e7",
+            "uuid": "94856690dc3f48e28a9b1356678df88c"
+          }
+        ],
+        [
+          "TCRT5000",
+          1,
+          "OPTO-TH_TCRT5000",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2984661",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "TCRT5000",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TCRT5000",
+            "puuid": "efd977a740824facac0e5941e466c2f4",
+            "uuid": "f042d8e2bb36493cac2403a27b1cf43b"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "TSSOP-8_L4.4-W3.0-P0.65-LS6.4-BL",
+          "U1",
+          {
+            "subpart_no": "1",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2863217",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM358LVIPWR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LM358LVIPWR",
+            "puuid": "ac3fffac6da64b5495d3fa41718a99f8",
+            "uuid": "536d29e603564cb386d6553c8f1dd03b"
+          }
+        ]
+      ],
+      "updateTime": 1708191847,
+      "createTime": 1707908542,
+      "histories": [],
+      "created_at": "2024-02-14 16:32:22",
+      "updated_at": "2024-02-17 23:14:07"
+    },
+    {
+      "uuid": "f7ab0b07b7336dd7278d0cdbec181d0c",
+      "puuid": "672134f2ba553f6ed5420ef325318db3",
+      "title": "PCB_Techligence_task1",
+      "filename": "PCB_Techligence_task1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d87613ab98c4495fb0f40dae7e08672a": 2,
+        "ac3fffac6da64b5495d3fa41718a99f8": 1,
+        "efd977a740824facac0e5941e466c2f4": 1,
+        "f1412257f0ef491182e6889e0f6ca3e7": 1,
+        "398691f1f785460098bbe5ee6590333c": 3,
+        "bfb6a2773f06414c87aa48a7f877b54b": 1
+      },
+      "BOM": [],
+      "updateTime": 1708191852,
+      "createTime": 1708186217,
+      "histories": [],
+      "created_at": "2024-02-17 21:40:17",
+      "updated_at": "2024-02-17 23:14:12"
+    }
+  ],
+  "sort": [],
+  "title": "Techligence_task1",
+  "foldername": "Techligence_task1",
+  "schfilename": "Techligence_task1.json",
+  "schfilemtime": 1708191847790
+}
